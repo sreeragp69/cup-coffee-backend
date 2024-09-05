@@ -14,7 +14,7 @@ const errorMiddleware = require('./middlewares/error_middleware');
 
 // *HANDLE CORS POLICY
 const corsOption ={
-  origin:"http://localhost:5173",
+  origin:"https://cup-coffee-frontend.onrender.com",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials:true
 }
